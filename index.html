@@ -51,6 +51,51 @@
             margin-top: 10px;
         }
 
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #334155;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background: #334155;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
         footer {
             background: #020617;
             text-align: center;
@@ -85,6 +130,8 @@
             Scientists continue to explore the ocean to discover new species,
             understand ecosystems, and study geological formations beneath the sea.
         </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Ocean_surface.jpg" alt="Ocean surface">
     </div>
 </section>
 
@@ -97,30 +144,65 @@
             and deep-sea vents all host unique communities of organisms adapted
             to their environments.
         </p>
-    </div>
-</section>
 
-<section>
-    <h2>Deep Sea Exploration</h2>
-    <div class="card">
         <ul>
-            <li>Remotely operated vehicles (ROVs)</li>
-            <li>Deep-sea submersibles</li>
-            <li>Autonomous underwater drones</li>
-            <li>Advanced sonar mapping systems</li>
+            <li>Coral reef ecosystems</li>
+            <li>Bioluminescent deep sea species</li>
+            <li>Migratory marine mammals</li>
+            <li>Microscopic plankton communities</li>
         </ul>
     </div>
 </section>
 
 <section>
-    <h2>Why It Matters</h2>
+    <h2>Major Exploration Missions</h2>
     <div class="card">
-        <p>
-            Studying the ocean helps scientists understand climate change,
-            biodiversity, and natural resources. Many discoveries from ocean
-            research contribute to medicine, environmental protection, and
-            sustainable development.
-        </p>
+        <table>
+            <tr>
+                <th>Mission</th>
+                <th>Year</th>
+                <th>Focus</th>
+            </tr>
+            <tr>
+                <td>Trieste Dive</td>
+                <td>1960</td>
+                <td>First descent to Challenger Deep</td>
+            </tr>
+            <tr>
+                <td>Deepsea Challenger</td>
+                <td>2012</td>
+                <td>Solo Mariana Trench expedition</td>
+            </tr>
+            <tr>
+                <td>Five Deeps Expedition</td>
+                <td>2019</td>
+                <td>Exploration of the deepest point in every ocean</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section>
+    <h2>Ocean Facts</h2>
+    <div class="card">
+        <ul>
+            <li>The deepest known point is the Challenger Deep (~11,000 m).</li>
+            <li>More than 80% of the ocean remains unexplored.</li>
+            <li>The ocean produces over half of the world's oxygen.</li>
+            <li>Underwater mountain ranges are longer than any on land.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <form>
+            <input type="text" placeholder="Your name">
+            <input type="email" placeholder="Your email">
+            <textarea rows="4" placeholder="Your message"></textarea>
+            <button type="submit">Send message</button>
+        </form>
     </div>
 </section>
 
